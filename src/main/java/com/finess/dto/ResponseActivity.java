@@ -1,0 +1,25 @@
+package com.finess.dto;
+
+import com.finess.model.Activity_Type;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.time.LocalDateTime;
+import java.util.Map;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+
+public class ResponseActivity {
+    private String id;
+    private String UserID;
+    private Activity_Type activityType;
+    private Map<String,Object> additionalmatrics;
+    private Integer duration;
+    private Integer CaloriesBurened;
+    private LocalDateTime Startedat;
+    private LocalDateTime updatedat;
+    private LocalDateTime createdat;
+}
