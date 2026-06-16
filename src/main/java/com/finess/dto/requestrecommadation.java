@@ -20,4 +20,5 @@ public class requestrecommadation {
     private List<String> improvements;
 
     private List<String> safety;
+
 }
